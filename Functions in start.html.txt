@@ -1,0 +1,91 @@
+areColliding(x1,y1,dx1,dy1,x2,y2,dx2,dy2) - are 2 rectangles colliding 
+x1 - x of first target
+y1 - y of first target
+dx1 - size x of first target
+dy1 - size y of first target
+x2 - x of second target
+y2 - y of second target
+dx2 - size x of second target
+dy2 - size y of second target
+
+
+
+randomInteger(upTo) - random number between 0 and variable upTo
+
+upTo - between 0 and which other number to generate
+
+
+
+tryToLoad(image,color) - loads photo from (game folder)/images without .png
+
+image - image name without .png
+color - backup color if image crashes
+
+
+
+drawCircle(x,y,r.fill) - draws a circle
+
+x - where the circle's x is
+y - where the circle's y is
+r - radius
+
+fill - fill(true) or stroke(false)
+
+
+
+drawLine(x,y,dx,dy,fill) - draws a line
+
+x - line's x
+y - line's y
+dx - line's size x
+dy - line's size y 
+fill - fill(true) or stroke(false)
+
+
+
+followX(x1,y1,x2,y2) - calculets the x distance
+
+x1 - x of first target
+y1 - y of first target
+x2 - x of second target
+y2 - y of second target
+
+
+
+followY(x1,y1,x2,y2) - calculets the x distance
+
+x1 - x of first target
+y1 - y of first target
+x2 - x of second target
+y2 - y of second target
+
+
+
+drawImage(image,x,y,xs,xy) - draws an image(but it's less buggier)
+
+image - the image itself
+x - the image's x
+y - the image's y
+xs - the image's size x
+yx - the image's size y
+
+
+
+areArcsColliding(x1,y1,r1,x2,y2,r2) - checks if circles/arcs are colliding 
+
+x1 - x of first target
+y1 - y of first target
+r1 - radius of first target
+x2 - x of second target
+y2 - y of second target
+r2 - radius of second target
+
+
+
+distance(x1,y1,x2,y2) - calculates distance between objects
+
+x1 - x of first target
+y1 - y of first target
+x2 - x of second target
+y2 - y of second target
+
